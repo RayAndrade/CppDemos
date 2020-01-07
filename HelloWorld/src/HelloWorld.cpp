@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : HelloWorld.cpp
-// Author      : 
+// Author      : C++Tutorial for Beginners 3 - Hello World
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, ASCI-style
