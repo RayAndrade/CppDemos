@@ -1,9 +1,9 @@
 //============================================================================
 // Name        : Input.cpp
-// Author      : 
+// Author      : C++Tutorial for Beginners 7 - User Input
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Hello World in C++, ANSI-style
 //============================================================================
 
 #include <iostream>
@@ -16,16 +16,13 @@ int main() {
 
 	cout << "Enter your name " << flush;
 	string input;
-
 	cin >> input;
 
 	cout << "Hello " << input << endl;
 
 	int value;
 	cout << "Enter a number" << flush;
-
 	cin >> value;
-
 	cout << "You entered " << value << endl;
 
 
