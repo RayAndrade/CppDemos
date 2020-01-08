@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : if-else.cpp
 // Author      : Ray Andrade
-// Version     :
+// Version     : torial for Beginners 13 - If-Else
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, ANSI-style
 //============================================================================
@@ -24,7 +24,12 @@ int main() {
 
 	if(value == 5){
 		cout << "Application quitting" << endl;
+	}
 
+	if(value < 3){
+		cout << "Insufficant priviliges" << endl;
+	} else {
+		cout << "Go right ahead" << endl;
 	}
 
 	return 0;
