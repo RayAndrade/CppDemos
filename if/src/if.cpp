@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : if.cpp
 // Author      : Ray Andrade
-// Version     :
+// Version     : C++Tutorial for Beginners 12 - The "If" Statement
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, ANSI-style
 //============================================================================
@@ -17,14 +17,14 @@ int main() {
 	string input;
 	cin >> input;
 
-	// cout << "'" << input << "'" << endl;
+	cout << "You typed: " << "'" << input << "'" << endl;
 
 	if(input == password){
-		cout << "you got in!" << endl;
+		cout << "you got in!" << endl ;
 	}
 
-	if(input != password){
-			cout << "I do not know you!" << endl;
+	if (input != password){
+		cout << "I do not know you!" << endl;
 	}
 
 
