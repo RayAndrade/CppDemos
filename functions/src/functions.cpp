@@ -4,6 +4,7 @@
 // Version     :
 // Copyright   : Your copyright notice
 // Description : C++Tutorial for Beginners 25 - Functions: Using Subroutines in C++
+//               C++Tutorial for Beginners 26 - Return Values: Getting Data From Subroutines
 //============================================================================
 
 #include <iostream>
@@ -15,13 +16,13 @@ void showMenu() {
 	cout << "Do 3 kina stuff." << endl;
 }
 
-void processSelection() {
+int processSelection() {
 	cout << "what kind of stuff do you want to do?" << endl;
 
-	int input;
-	cin >> input;
+	int input1;
+	cin >> input1;
 
-	switch (input) {
+	switch (input1) {
 	case 1:
 		cout << "Doing 1 kinda stuff" << endl;
 		break;
@@ -35,11 +36,12 @@ void processSelection() {
 	default:
 		cout << "only 1, 2 or 3" << endl;
 	}
+	return input1;
 }
 
 int main() {
 	showMenu();
-	processSelection();
+	int input2 = processSelection();
 
 	return 0;
 }
