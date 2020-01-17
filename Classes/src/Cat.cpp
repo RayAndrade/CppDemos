@@ -12,9 +12,10 @@
 
 using namespace std;
 
-void speak(){
-
+void Cat::speak(){
 	cout << "Hello" << endl;
-
 }
 
+void Cat::jump(){
+	cout << "jumping" << endl;
+}
